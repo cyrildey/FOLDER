@@ -1,0 +1,15 @@
+pip install flask
+pip install SPARQLWrapper 
+python -m pip install sklearn 
+owlready2
+nltk
+rdflib
+
+sudo ufw allow 5000
+
+app.run(debug=True, host='0.0.0.0.')
+
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('stopwords')
